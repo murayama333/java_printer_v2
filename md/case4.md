@@ -91,8 +91,9 @@ public interface LegacyWriter {
 }
 ```
 
-
 次の実行結果になるようにLegacyWriterAdapterクラスを作成してください。
+
+> Printerクラスの修正は不要です。LegacyWriterインタフェースでPrinterクラスを再利用するために、LegacyWriterAdapterクラスを作成します。
 
 ```
 John
