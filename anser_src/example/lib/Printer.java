@@ -12,7 +12,7 @@ public class Printer {
 
 	protected List<String> lines;
 
-	private boolean showLineNo;
+	protected boolean showLineNo;
 
 	public Printer(List<String> lines) {
 		this.lines = lines;
