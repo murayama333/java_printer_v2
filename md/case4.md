@@ -66,7 +66,33 @@ public class Main {
 }
 ```
 
-次の実行結果になるようにPrinterクラスを修正してください。
+
+LegacyWriterインタフェースは以下の通りです。
+
+```java
+package example.lib;
+
+import java.io.IOException;
+
+public interface LegacyWriter {
+
+	public void print();
+
+	public void print(int count);
+
+	public void setData(String[] data);
+
+	public void setDataFromFile(String filePath) throws IOException;
+
+	public void setShowLineNo(boolean showLineNo);
+
+	public void writeToFile(String filePath) throws IOException;
+
+}
+```
+
+
+次の実行結果になるようにLegacyWriterAdapterクラスを作成してください。
 
 ```
 John
