@@ -19,7 +19,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// Exercise1
-		List<String> members = Arrays.asList("John", "Paul", "George", "Ringo");
+		List<String> members = Arrays.asList("John", "Michael", "James", "Daniel");
 		Printer printer = new Printer(members);
 		printer.print();
 
@@ -45,9 +45,9 @@ public class Printer {
 
 ```
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 ```
 
 ### 課題2 印刷枚数の指定
@@ -66,7 +66,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// Exercise1
-		List<String> members = Arrays.asList("John", "Paul", "George", "Ringo");
+		List<String> members = Arrays.asList("John", "Michael", "James", "Daniel");
 		Printer printer = new Printer(members);
 		printer.print();
 
@@ -83,17 +83,17 @@ public class Main {
 
 ```
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 ```
 
 
@@ -113,7 +113,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// Exercise1
-		List<String> members = Arrays.asList("John", "Paul", "George", "Ringo");
+		List<String> members = Arrays.asList("John", "Michael", "James", "Daniel");
 		Printer printer = new Printer(members);
 		printer.print();
 
@@ -132,19 +132,19 @@ public class Main {
 
 ```
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 1:John
-2:Paul
-3:George
-4:Ringo
+2:Michael
+3:James
+4:Daniel
 ```

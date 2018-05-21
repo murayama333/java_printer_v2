@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// Exercise1
-		List<String> members = Arrays.asList("John", "Paul", "George", "Ringo");
+		List<String> members = Arrays.asList("John", "Michael", "James", "Daniel");
 		Printer printer = new Printer(members);
 		printer.print();
 
@@ -24,7 +24,7 @@ public class Main {
 		printer.print();
 
 		// Exercise4
-		List<String> athletes = Arrays.asList("Uchimura", "Hagino", "Nishikori");
+		List<String> athletes = Arrays.asList("Takahashi", "Nakamura", "Sakamoto");
 		printer.setLines(athletes);
 		printer.print();
 

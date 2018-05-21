@@ -17,7 +17,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// Exercise1
-		List<String> members = Arrays.asList("John", "Paul", "George", "Ringo");
+		List<String> members = Arrays.asList("John", "Michael", "James", "Daniel");
 		Printer printer = new Printer(members);
 		printer.print();
 
@@ -29,7 +29,7 @@ public class Main {
 		printer.print();
 
 		// Exercise4
-		List<String> athletes = Arrays.asList("Uchimura", "Hagino", "Nishikori");
+		List<String> athletes = Arrays.asList("Takahashi", "Nakamura", "Sakamoto");
 		printer.setLines(athletes);
 		printer.print();
 
@@ -64,24 +64,24 @@ Sanada
 
 ```
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 1:John
-2:Paul
-3:George
-4:Ringo
-1:Uchimura
-2:Hagino
-3:Nishikori
+2:Michael
+3:James
+4:Daniel
+1:Takahashi
+2:Nakamura
+3:Sakamoto
 java.lang.IllegalStateException: lines is null.
 	at example.lib.Printer.print(Printer.java:23)
 	at example.Main.main(Main.java:31)
@@ -108,7 +108,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		// Exercise1
-		List<String> members = Arrays.asList("John", "Paul", "George", "Ringo");
+		List<String> members = Arrays.asList("John", "Michael", "James", "Daniel");
 		Printer printer = new Printer(members);
 		printer.print();
 
@@ -120,7 +120,7 @@ public class Main {
 		printer.print();
 
 		// Exercise4
-		List<String> athletes = Arrays.asList("Uchimura", "Hagino", "Nishikori");
+		List<String> athletes = Arrays.asList("Takahashi", "Nakamura", "Sakamoto");
 		printer.setLines(athletes);
 		printer.print();
 
@@ -154,24 +154,24 @@ public class Main {
 
 ```
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 John
-Paul
-George
-Ringo
+Michael
+James
+Daniel
 1:John
-2:Paul
-3:George
-4:Ringo
-1:Uchimura
-2:Hagino
-3:Nishikori
+2:Michael
+3:James
+4:Daniel
+1:Takahashi
+2:Nakamura
+3:Sakamoto
 java.lang.IllegalStateException: lines is null.
 	at example.lib.Printer.print(Printer.java:23)
 	at example.Main.main(Main.java:33)
